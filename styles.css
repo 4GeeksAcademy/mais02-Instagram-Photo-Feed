@@ -16,21 +16,21 @@ h1{
     margin: 0;
 }
 
-div.post {
+div.post, div.post2, div.post3, div.post4 {
     background: white;
-    margin-top: 10px;
+    margin-top: 20px;
 }
 
-div.post img{
+div.post img, div.post2 img, div.post3 img, div.post4 img{
     width: 100%;
 }
 
-div.post .post-header div:first-child {
+div.post .post-header div:first-child, div.post2 .post-header div:first-child, div.post3 .post-header div:first-child, div.post4 .post-header div:first-child{
     display: inline-block;
     width: 80%;
 }
 
-div.post .post-header div:last-child {
+div.post .post-header div:last-child, div.post2 .post-header div:last-child, div.post3 .post-header div:last-child, div.post4 .post-header div:last-child {
     display: inline-block;
     width: 20%;
     text-align:right;
@@ -39,7 +39,7 @@ div.post .post-header div:last-child {
 }
 
 
-div.post h2, div.post p{
+div.post h2, div.post p, div.post2 h2, div.post2 p, div.post3 h2, div.post3 p, div.post4 h2, div.post4 p{
     padding: 10px;
     margin: 0;
 }
@@ -48,3 +48,4 @@ div.container{
     width: 600px;
     margin: auto;
 }
+
